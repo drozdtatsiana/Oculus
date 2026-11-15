@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oculus Meta 3 | Epic gaming just got bigger</title>
+  <meta name="description" content="Educational landing page for the Oculus Meta 3 VR headset.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="inner">
+
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="Oculus Meta">
+        </a>
+
+        <nav class="menu" aria-label="Main menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Apps and Games</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Meta Quest</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Support</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="lang">
+          <li class="lang__item">
+            <a href="#" class="lang__link lang__link--active" lang="en" aria-current="true">En</a>
+          </li>
+          <li class="lang__item">
+            <a href="#" class="lang__link" lang="ru">Ru</a>
+          </li>
+        </ul>
+
+        <button class="header__btn" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="top">
+      <div class="top__bg" aria-hidden="true">
+        <video autoplay muted loop playsinline>
+          <source src="./images/video.mp4" type="video/mp4">
+          <source src="./images/video.webm" type="video/webm">
+        </video>
+      </div>
+      <div class="wrapper">
+        <div class="top__inner">
+
+          <div class="top__content">
+            <h1 class="top__title">Oculus
+              <span>Meta 3</span>
+            </h1>
+            <p class="top__slogan">Epic gaming just got bigger</p>
+            <p class="top__text">Experience gaming, fitness and entertainment, including your favorite apps, like
+              Facebook, Instagram and WhatsApp—all within headset.</p>
+          </div>
+
+          <div class="top__info">
+
+            <dl class="top__list">
+              <div>
+                <dt>120 Hz</dt>
+                <dd>Frame Rate</dd>
+              </div>
+              <div>
+                <dt>110°</dt>
+                <dd>Viewing Angle</dd>
+              </div>
+              <div>
+                <dt>12</dt>
+                <dd>Months Warranty</dd>
+              </div>
+            </dl>
+
+            <div class="top__explore">
+              <button class="top__explore-btn" type="button">Explore</button>
+
+              <div class="top__explore-box">
+                <canvas id="canvas" width="320" height="320" aria-hidden="true"></canvas>
+
+                <div class="top__headset">
+                  <img src="./images/Headset.png" alt="Oculus Meta 3 headset" class="image">
+                </div>
+
+                <button class="top__plus top__plus--one" type="button" aria-label="Immersive 3D Audio">
+                  <span class="top__plus-decor top__plus-decor--one" aria-hidden="true">+</span>
+                  <span class="top__plus-text">Immersive 3D Audio</span>
+                </button>
+
+                <button class="top__plus top__plus--two" type="button" aria-label="Dual RGB Camera">
+                  <span class="top__plus-decor top__plus-decor--two" aria-hidden="true">+</span>
+                  <span class="top__plus-text">Dual RGB Camera</span>
+                </button>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
